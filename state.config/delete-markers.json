@@ -1,0 +1,28 @@
+{
+    "Objects": [
+        {
+            "Key": "foundation/s3/terraform.tfstate.tflock",
+            "VersionId": "GROARfoi0H_kLq.UvEKQnhJVNUfbP7RM"
+        },
+        {
+            "Key": "foundation/s3/terraform.tfstate.tflock",
+            "VersionId": "V1RqBTVfJS35djsZPUkFmHawLDwgifyk"
+        },
+        {
+            "Key": "foundation/s3/terraform.tfstate.tflock",
+            "VersionId": "9PVd4lI9fpF7IQwbVbq5ybAaONnctwgv"
+        },
+        {
+            "Key": "foundation/s3/terraform.tfstate.tflock",
+            "VersionId": "I3rMZ8dZpgB5ZtvJBXR5j4KEZLroVrC4"
+        },
+        {
+            "Key": "foundation/s3/terraform.tfstate.tflock",
+            "VersionId": "nO7QEpIFOiud6_2ickO2RwZauQDFxg8E"
+        },
+        {
+            "Key": "foundation/s3/terraform.tfstate.tflock",
+            "VersionId": "pAdsimiPzH.L9u481dWt6_2iJtS4XWhS"
+        }
+    ]
+}
