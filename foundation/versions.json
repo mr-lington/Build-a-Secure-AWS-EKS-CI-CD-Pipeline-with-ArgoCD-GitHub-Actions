@@ -1,0 +1,12 @@
+{
+    "Objects": [
+        {
+            "Key": "foundation/s3/terraform.tfstate",
+            "VersionId": "jImcugQBvIUNbo17lr5BCQpC1YH7frkr"
+        },
+        {
+            "Key": "foundation/s3/terraform.tfstate.tflock",
+            "VersionId": "BuURwfdzvOLd42kHLka8eMJx.g1p9SNH"
+        }
+    ]
+}
