@@ -3,12 +3,13 @@ variable "region" {
   description = "AWS region to provision infrastructure."
 }
 
-variable "bucket" {
+
+variable "github_repo" {
   type        = string
-  description = "S3 bucket for terraform state."
+  description = "GitHub repositories allowed to assume the role"
 }
 
-variable "github_repos" {
+variable "ecr_repositories" {
+  description = "List of ECR repositories to create"
   type        = list(string)
-  description = "GitHub repositories."
 }

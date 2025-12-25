@@ -1,8 +1,3 @@
-locals {
-  github_subs = [for item in var.github_repos : "repo:${item}:ref:refs/heads/*"]
-  ecr_repos   = [for item in var.github_repos : "arn:aws:ecr:${var.region}:${data.aws_caller_identity.current.account_id}:repository/${lower(item)}"]
-}
-
 module "iam_policy" {
   source  = "terraform-aws-modules/iam/aws//modules/iam-policy"
   version = "6.2.1"
@@ -28,42 +23,29 @@ module "iam_policy" {
           "ecr:PutImage",
           "ecr:UploadLayerPart"
         ]
-        Resource = local.ecr_repos
+        Resource = [
+          for repo in module.ecr :
+          repo.repository_arn
+        ]
       },
     ]
   })
 }
 
-module "iam_role" {
-  source  = "terraform-aws-modules/iam/aws//modules/iam-role"
-  version = "6.2.1"
 
-  name = "github-actions"
+module "github_actions_role" {
+  source = "terraform-aws-modules/iam/aws//modules/iam-role"
 
-  use_name_prefix = false
+  name               = "github-actions"
+  enable_github_oidc = true
+  use_name_prefix    = false
 
-  trust_policy_permissions = {
-    TrustRoleAndServiceToAssume = {
-      actions = ["sts:AssumeRoleWithWebIdentity"]
-      principals = [{
-        type        = "Federated"
-        identifiers = [module.iam_oidc_provider.arn]
-      }]
-      condition = [{
-        test     = "StringEquals"
-        variable = "token.actions.githubusercontent.com:aud"
-        values   = ["sts.amazonaws.com"]
-        },
-        {
-          test     = "StringLike"
-          variable = "token.actions.githubusercontent.com:sub"
-          values   = local.github_subs
-        }
-      ]
-    }
-  }
+  oidc_wildcard_subjects = [
+    "repo:${var.github_repo}:ref:refs/tags/v*",
+    "repo:${var.github_repo}:ref:refs/heads/main"
+  ]
 
   policies = {
-    ECRReadWrite = module.iam_policy.arn
+    ECRPush = module.iam_policy.arn
   }
 }
