@@ -1,72 +1,40 @@
 {
     "Objects": [
         {
-            "Key": "foundation/s3/terraform.tfstate.tflock",
-            "VersionId": "hC2BkGCF4g0VlLwMXkpRnoETU.Wu21Qo"
+            "Key": "dev/eks/s3/terraform.tfstate.tflock",
+            "VersionId": "AAxEXmTM8p2Yttbuz6W_gWVUWxdArLfv"
+        },
+        {
+            "Key": "dev/eks/s3/terraform.tfstate.tflock",
+            "VersionId": "NGg0xCZ_wDX61W2DjenutQwNcJt2ue7v"
+        },
+        {
+            "Key": "dev/eks/s3/terraform.tfstate.tflock",
+            "VersionId": "ObrOVkPH7XxSn3dgItkc5BcZFJzmCIzT"
+        },
+        {
+            "Key": "dev/vpc/s3/terraform.tfstate.tflock",
+            "VersionId": "XwSIF3Fa1Wgs4qL9RjU.PzBn7IUWDZaT"
+        },
+        {
+            "Key": "dev/vpc/s3/terraform.tfstate.tflock",
+            "VersionId": "20l.2ATWgXyrpmSpStNkpenYi20WMoLp"
+        },
+        {
+            "Key": "dev/vpc/s3/terraform.tfstate.tflock",
+            "VersionId": "fMHtVWElw9YuYqFtpR22ookwNfrDE1QT"
         },
         {
             "Key": "foundation/s3/terraform.tfstate.tflock",
-            "VersionId": "G6heirrDGCeD3NFEx5Rr91NKe4MDafbf"
+            "VersionId": "0KLgdnjbCxC5KStZzPCONzLP0wXwWaGi"
         },
         {
             "Key": "foundation/s3/terraform.tfstate.tflock",
-            "VersionId": "1Btr_Xldbjw2iQSbRcFS9ANKv._eLtNd"
+            "VersionId": "F8cSRTR6VlS.HWFEl7IMF9XH2syz.aCB"
         },
         {
             "Key": "foundation/s3/terraform.tfstate.tflock",
-            "VersionId": "9PNWzH4efSSTqQdldx5OmDKME3_6WE0U"
-        },
-        {
-            "Key": "foundation/s3/terraform.tfstate.tflock",
-            "VersionId": "9m5rWFE_GtnB36vN97wVH2hqRI9GKGuD"
-        },
-        {
-            "Key": "foundation/s3/terraform.tfstate.tflock",
-            "VersionId": "WWx7lLGmFe4Sfyk1DbVBO__g0HqVkCCM"
-        },
-        {
-            "Key": "foundation/s3/terraform.tfstate.tflock",
-            "VersionId": "TCtbWAIEzu.eijEH4_kRJfQ0595JT1gl"
-        },
-        {
-            "Key": "foundation/s3/terraform.tfstate.tflock",
-            "VersionId": "UWgEX4iCCDU.qQ9ZS.ZP3JhAoFZBTU4M"
-        },
-        {
-            "Key": "foundation/s3/terraform.tfstate.tflock",
-            "VersionId": "dez2rCESRgL4YGth60_C0bUMcrbuAErk"
-        },
-        {
-            "Key": "foundation/s3/terraform.tfstate.tflock",
-            "VersionId": "ieMuEflqTBQxoUJhgsFTLYtele1Pj0uB"
-        },
-        {
-            "Key": "foundation/s3/terraform.tfstate.tflock",
-            "VersionId": "apGAbm2qsYdgBfl1CU7NLJ.g2ibNo_CA"
-        },
-        {
-            "Key": "foundation/s3/terraform.tfstate.tflock",
-            "VersionId": "fYtnwYby467CfPt7cjMtRJ6Io4SVylMN"
-        },
-        {
-            "Key": "foundation/s3/terraform.tfstate.tflock",
-            "VersionId": "LVEBPnh_uq8DpbfGpSUWL5Z3eXFCwKvb"
-        },
-        {
-            "Key": "foundation/s3/terraform.tfstate.tflock",
-            "VersionId": "dt2vj26Vu1rcS2XwK.iDiIyDhyZywbgh"
-        },
-        {
-            "Key": "foundation/s3/terraform.tfstate.tflock",
-            "VersionId": "DEnUT94fEOPt5rQF__aOq8mywI7ELMiO"
-        },
-        {
-            "Key": "foundation/s3/terraform.tfstate.tflock",
-            "VersionId": "xZ8hZgHO2X1HhjLcnqUNNzv1AACUM3.K"
-        },
-        {
-            "Key": "foundation/s3/terraform.tfstate.tflock",
-            "VersionId": "dnjtruoaKC3gPr5d9rsG_Lki80a.P6nm"
+            "VersionId": ".CXeLhBzpOER9yNAxMIai9AYacGiljKQ"
         }
     ]
 }
