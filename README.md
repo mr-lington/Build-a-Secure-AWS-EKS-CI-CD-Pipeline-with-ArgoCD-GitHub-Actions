@@ -472,6 +472,7 @@ This project demonstrates:
 - DevOps documentation quality  
 
 ---
+<img width="1536" height="1024" alt="github action and argocd architectural diagram" src="https://github.com/user-attachments/assets/c540c3a3-f06c-429c-89b8-949b3351b9c2" />
 
 ##  Author
 
